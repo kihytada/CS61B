@@ -1,0 +1,23 @@
+
+# Play a game as red against the staff program in strict mode.
+java -ea ataxx.Main
+seed 1928382
+block b2
+block c3
+block c4
+manual blue
+auto red
+start
+@send red...
+quit
+
+
+
+staff-ataxx --strict
+seed 2983847
+block b2
+block c3
+block c4
+start
+@recv red...
+quit
